@@ -1,0 +1,5 @@
+2026-01-21	Fix for "Incompatible" Issue in Midnight. Still working as far as I can tell.
+
+2024-09-02	Fix for slash command conflict (/lss) with LootSpecSwapper
+
+2020-10-16	Fix for 9.0 API change

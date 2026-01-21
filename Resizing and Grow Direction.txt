@@ -1,0 +1,23 @@
+Open LootSpec_Switcher.lua
+
+1. scaling
+
+Change the size "28" in line 1: local size, space = 28, 5
+
+2. vertical alignment
+
+Replace line (52) containing
+
+
+
+
+button:SetPoint("CENTER", anchor, "BOTTOMLEFT", ((i - 1) * (size + space)) + (size / 2) + space, (size / 2) + space)
+
+
+
+with
+
+
+
+
+button:SetPoint("CENTER", anchor, "BOTTOMLEFT", (size / 2) + space,((i - 1) * (size + space)) + (size / 2) + space)
